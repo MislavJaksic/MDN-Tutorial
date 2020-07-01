@@ -1,0 +1,33 @@
+html {
+  font-size: 10px;  /* size in pixels */
+  font-family: "Open Sans", sans-serif;  /* from Google Fonts */
+  background-color: #00539F;
+}
+
+body {
+  width: 600px;
+  margin: 0 auto;  /* line oustide the padding */
+  background-color: #FF9500;
+  padding: 0 20px 20px 20px;  /* space around content */
+  border: 5px solid black;  /* space outside the padding */
+}
+
+h1 {
+  font-size: 60px;
+  text-align: center;
+  margin: 0;
+  padding: 20px 0;
+  color: #00539F;
+  text-shadow: 3px 3px 1px black;  /* content casts a shadow */
+}
+
+p, li {
+  font-size: 16px;
+  line-height: 2;
+  letter-spacing: 1px;
+}
+
+img {
+  display: block;  /* display inline element as a block */
+  margin: 0 auto;
+}

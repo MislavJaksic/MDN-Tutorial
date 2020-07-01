@@ -16,7 +16,3 @@ They use:
 You'll need:
 * a text editor
 * web browser
-
-Installing a local web server
-
-Some examples will need to be run by a web server to work successfully. You can find out how to do this in How do you set up a local testing server?

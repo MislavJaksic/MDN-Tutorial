@@ -28,11 +28,11 @@ Use the [Color Picker](https://developer.mozilla.org/en-US/docs/Web/CSS/CSS_Colo
 #### Images
 
 Steps:
-* [Google images](https://www.google.com/imghp?hl=en&tab=wi)
+* [Google Images](https://www.google.com/imghp?hl=en&tab=wi)
 * `Tools -> Usage rights -> select license`
 
 #### Font
 
 Steps:
-* [Google fonts](https://fonts.google.com/)
+* [Google Fonts](https://fonts.google.com/)
 * `select a font -> Selected families -> Embed -> copy link`
