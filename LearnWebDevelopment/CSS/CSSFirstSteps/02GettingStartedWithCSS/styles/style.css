@@ -1,0 +1,32 @@
+p, li {  /* select element */
+    color: green;  /* change properties */
+    font-size: 10px;
+}
+
+.special {  /* select element with class="special"  */
+  color: orange;
+  font-weight: bold;
+}
+
+li.special,
+span.special {  /* select <li> and <span> element with class="special" */
+  color: orange;
+  font-weight: bold;
+}
+
+li em {  /* within <li> select <em> elements */
+  color: rebeccapurple;
+}
+h1 + p { /* select <p>s that come after <h1> on the same level */
+  font-size: 200%;
+}
+
+a:link {  /* select <a> if unvisited */
+    color: pink;
+}
+a:visited {  /* select <a> if visited */
+    color: green;
+}
+a:hover {  /* select <a> if you hover over it */
+    text-decoration: none;
+}
