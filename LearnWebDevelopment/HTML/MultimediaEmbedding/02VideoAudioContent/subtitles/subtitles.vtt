@@ -1,0 +1,11 @@
+WEBVTT
+
+0
+00:00:00.000 --> 00:00:03.000
+<v Test>[Test]</v>
+
+NOTE This is a comment and must be preceded by a blank line
+
+1
+00:00:03.000 --> 00:00:7.000
+Hello little rabbit!
