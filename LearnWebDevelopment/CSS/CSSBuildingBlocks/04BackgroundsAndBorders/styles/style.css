@@ -1,0 +1,9 @@
+.box {
+  background-color: #567895;
+}
+.box {
+  background-image: url(balloons.jpg);
+  background-repeat: no-repeat;
+  background-size: 100px 10em;
+  background-position: 120px 1em;
+}

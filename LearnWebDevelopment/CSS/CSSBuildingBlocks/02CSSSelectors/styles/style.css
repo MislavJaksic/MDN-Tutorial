@@ -1,0 +1,68 @@
+/* type selector */
+div { /* select all <div> */
+  color: blue;
+}
+/* class selector */
+.special { /* select element with class="special" */
+  font-weight: bold;
+}
+/* ID selector */
+#special { /* select element with id="special" */
+  font-family: cursive;
+}
+/* attribute selector */
+    /* presence and value attribute selector */
+[data] { /* select element with data attribute */
+  color: green;
+}
+[data="liquid"] { /* select element with data="liquid" attribute */
+  background-color: goldenrod;
+}
+[data~="spicy"] { /* select element that contains data="liquid" attribute */
+  color: red;
+}
+[lang|="fr"] { /* select element with lang="fr" or lang="fr-" attribute */
+  font-weight: bold;
+}
+    /* substring value attribute selector */
+[data^="optional"] { /* select element that begins with data="optional" attribute  */
+  opacity: 0.5;
+}
+[data$="kg"] { /* select element that ends with data="kg" attribute */
+  font-weight: bold;
+}
+[data*="spicy"] { /* select element that has data="spicy" attribute anywhere */
+  color: green;
+}
+/* pseudo-class selector */
+a:link {  /* select <a> if unvisited */
+    color: pink;
+}
+a:visited {  /* select <a> if visited */
+    color: green;
+}
+a:hover {  /* select <a> if you hover over it */
+    text-decoration: none;
+}
+/* pseudo-element selector */
+[href="http"]::after { /* select element that appers AFTER the element with href="http" attribute  */
+  content: '⤴';
+}
+/* combinators */
+li em { /* within <li> select <em> elements */
+  color: red;
+}
+li > em { /* within <li> select children <em> elements */
+  background-color: yellow;
+}
+h1 + p { /* select <p> that come after <h1> on the same level */
+  text-transform: uppercase;
+}
+h2 ~ p { /* select <p> siblings of <h2> */
+  border: 1px dashed black;
+}
+
+/* select element AFTER <td> that are a last child in element with class="with-currency" with attribute lang="fr" */
+.with-currency[lang="fr"] td:last-child::after {
+  content: ' €';
+}
