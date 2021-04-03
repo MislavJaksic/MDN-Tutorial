@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en-US">
+
+  <head>
+    <meta charset="utf-8">
+    <title>Tables in HTML</title>
+
+    <link href="styles/minimal-table.css" rel='stylesheet'>
+  </head>
+
+  <body>
+    <table>
+      <caption>Text-Above</caption>
+      <colgroup>
+        <col style="background-color: yellow" span="4">
+      </colgroup>
+      <!-- table head -->
+      <thead>
+        <tr>
+          <th>&nbsp;</th>
+          <th>A column</th>
+          <th>B column</th>
+          <th>C column</th>
+        </tr>
+      </thead>
+      <!-- table body -->
+      <tbody>
+        <tr>
+          <th>1 row</th>
+          <td rowspan="2">1A, 2A: span two rows</td>
+          <td colspan="2">1B, 1C: span two columns</td>
+        </tr>
+        <th>2 row</th>
+        <td>
+          <!-- nested table -->
+          <table>
+            <tr>
+              <td>1 cell</td>
+              <td>2 cell</td>
+            </tr>
+          </table>
+        </td>
+      </tbody>
+      <!-- table footer -->
+      <tfoot>
+        <tr>
+          <th>&nbsp;</th>
+          <td colspan="2">SUM</td>
+          <td>118</td>
+        </tr>
+      </tfoot>
+    </table>
+  </body>
+
+</html>
